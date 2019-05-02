@@ -13,6 +13,8 @@ class Users extends Component {
   }
 }
 
-const map
+const mapStateToProps = (state) => {
+  return { }
+}
 
 export default Users
