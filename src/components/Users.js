@@ -6,6 +6,7 @@ class Users extends Component {
     let users = this.props.user((user, index) => <li key={index}>{user.username}</li>)
     return (
       <div>
+        {this.props.numberOfUsers}
         <ul>
           {users}
         </ul>
