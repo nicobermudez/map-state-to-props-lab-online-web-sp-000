@@ -5,7 +5,10 @@ import { createStore } from 'react-redux'
 import App from './App'
 import manageUsers from './reducers/manageUsers'
 
-const store = createStore()
+const store = createStore(
+  manageUsers,
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+)
 
 
 ReactDOM.render(
