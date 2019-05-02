@@ -11,7 +11,7 @@ import manageUsers from './reducers/manageUsers'
 ReactDOM.render(
   <Provider store={store}>
   <App />
-  // add imports and code
+  </Provider>
   ,
   document.getElementById('root')
 );
