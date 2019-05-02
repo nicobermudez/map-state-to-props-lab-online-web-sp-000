@@ -17,4 +17,4 @@ const mapStateToProps = (state) => {
   return { username: state.username }
 }
 
-export default Users
+export default connect(mapStateToProps)(Users)
