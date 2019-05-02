@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 class Users extends Component {
 
   render() {
+    let users = this.props.user
     return (
       <div>
         <ul>
